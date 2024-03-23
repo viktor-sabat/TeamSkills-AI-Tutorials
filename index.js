@@ -1,0 +1,1 @@
+console.log("The index.html file has been linked with the index.js file");
