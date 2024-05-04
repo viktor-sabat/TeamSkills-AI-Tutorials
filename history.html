@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wireframe</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/timeline.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="main-header">
+      <a style="padding-left: 6rem" href="index.html"
+        ><img src="./images/logo/logoipsum-286.svg" alt="website logo"
+      /></a>
+      <div style="padding-right: 4rem">
+        <a href="index.html" class="main-header__link">Home</a>
+        <a
+          href="history.html"
+          class="main-header__link main-header__link--highlight"
+          >History</a
+        >
+        <a href="#" class="main-header__link">Tutorials </a>
+      </div>
+      <label id="main-header__burger" class="main-header__burger">
+        <input
+          id="main-header__input"
+          class="main-header__input"
+          type="checkbox"
+        />
+      </label>
+      <nav id="main-header__menu" class="main-header__menu">
+        <ul id="main-header__list" class="main-header__list">
+          <li class="main-header__list-item">
+            <a
+              id="main-header__link-home"
+              class="main-header__link main-header__link--highlight"
+              href="index.html"
+              >Home</a
+            >
+          </li>
+
+          <li class="main-header__list-item">
+            <a
+              id="main-header__link-history"
+              class="main-header__link"
+              href="history.html"
+              >History</a
+            >
+          </li>
+          <li class="main-header__list-item">
+            <a
+              id="main-header__link-tutorials"
+              class="main-header__link"
+              href="tutorials.html"
+              >Tutorials</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      "
+    >
+      <img
+        class="img-timeline"
+        src="images\history\0_X6vZj3fHinpat5Rg.jpg"
+        alt=""
+      />
+    </div>
+    <main class="main-container">
+      <section class="main-container__box">
+        <ul>
+          <li style="--accent-color: #41516c">
+            <div class="date">Jaren 50</div>
+            <div class="title">Begin van de AI</div>
+            <div class="descr">
+              Het begin van AI als onderzoeksveld. Alan Turing stelt de "Turing
+              Test" voor in 1950, om te beoordelen of een machine intelligent
+              gedrag kan vertonen gelijk aan, of niet te onderscheiden van, dat
+              van een mens.
+            </div>
+          </li>
+          <li style="--accent-color: #fbca3e">
+            <div class="date">Jaren 80</div>
+            <div class="title">Machine learning</div>
+            <div class="descr">
+              Machine learning komt op als een nieuwe benadering binnen AI,
+              waarbij computers leren van data in plaats van geprogrammeerd te
+              worden met specifieke instructies.
+            </div>
+          </li>
+          <li style="--accent-color: #e24a68">
+            <div class="date">1997</div>
+            <div class="title">IBM's Deep Blue</div>
+            <div class="descr">
+              IBM's Deep Blue verslaat wereldkampioen schaken Garry Kasparov,
+              een belangrijke mijlpaal die laat zien dat machines specifieke
+              menselijke vaardigheden kunnen overtreffen.
+            </div>
+          </li>
+          <li style="--accent-color: #1b5f8c">
+            <div class="date">2000</div>
+            <div class="title">Neurale netwerken</div>
+            <div class="descr">
+              De ontwikkeling van neurale netwerken en deep learning neemt een
+              vlucht, geïnspireerd door de structuur en functie van het
+              menselijk brein. Deze technologieën stellen machines in staat om
+              complexe patronen in grote datasets te herkennen.
+            </div>
+          </li>
+          <li style="--accent-color: #4cadad">
+            <div class="date">2011</div>
+            <div class="title">IBM Watson</div>
+            <div class="descr">
+              IBM's Watson wint de quizshow Jeopardy!, wat een belangrijke
+              demonstratie is van het vermogen van AI om natuurlijke taal te
+              verwerken en complexe vragen te beantwoorden.
+            </div>
+          </li>
+          <li style="--accent-color: #41516c">
+            <div class="date">2010s</div>
+            <div class="title">Deep learning technieken</div>
+            <div class="descr">
+              Deep learning technieken leiden tot significante vooruitgang in
+              beeld- en spraakherkenning, waardoor de weg vrijkomt voor
+              geavanceerde persoonlijke assistenten en autonome voertuigen.
+            </div>
+          </li>
+          <li style="--accent-color: #fbca3e">
+            <div class="date">2015</div>
+            <div class="title">OpenAI</div>
+            <div class="descr">
+              OpenAI wordt opgericht, met als doel AI te bevorderen op manieren
+              die voor de hele mensheid voordelig zijn, en introduceert later
+              geavanceerde taalmodellen zoals GPT.
+            </div>
+          </li>
+          <li style="--accent-color: #e24a68">
+            <div class="date">2023</div>
+            <div class="title">ChatGPT</div>
+            <div class="descr">
+              ChatGPT wordt bekend en wordt globaal gebruikt. Het vereenvoudigt
+              eenvoudige en soms complexe zaken.
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <section class="main-footer__content">
+        <a
+          class="main-footer__icon"
+          href="https://www.facebook.com/hogeschoolUCLL/"
+          target="_blank"
+          ><i class="bi bi-facebook"></i
+        ></a>
+        <a
+          class="main-footer__icon"
+          href="https://www.instagram.com/ucleuvenlimburg/"
+          target="_blank"
+          ><i class="bi bi-instagram"></i
+        ></a>
+        <a
+          class="main-footer__icon"
+          href="https://twitter.com/hogeschoolUCLL"
+          target="_blank"
+          ><i class="bi bi-twitter-x"></i
+        ></a>
+      </section>
+      <section class="main-footer__content">
+        <p class="main-footer__text">© Temp</p>
+      </section>
+    </footer>
+  </body>
+</html>
