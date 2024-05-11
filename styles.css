@@ -401,6 +401,10 @@
     }
 }
 
+.history__body{
+  background-color: var(--off-white);
+}
+
 .timeline-ul {
   --col-gap: 2rem;
   --row-gap: 2rem;
