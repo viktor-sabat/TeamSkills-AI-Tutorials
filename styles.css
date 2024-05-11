@@ -202,6 +202,10 @@
   margin-left: 7px;
 }
 
+.listed-ai img{
+  width: 60%;
+}
+
 .listed-ai__main{
   padding-bottom: 5px;
   padding-top: 10px;
@@ -324,6 +328,9 @@
     .content__paragraph {
         font-size: 1rem;
     }
+    .register__paragraph{
+    font-size: 1.5rem;
+    }
     .register__input {
         height: 3.5rem;
         width: 70%;
@@ -399,6 +406,10 @@
         height: 5rem;
         font-size: 2rem;
     }
+}
+
+.history__body{
+  background-color: var(--off-white);
 }
 
 .timeline-ul {
