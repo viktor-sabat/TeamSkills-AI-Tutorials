@@ -190,6 +190,32 @@
   font-size: 0.8rem;
 }
 
+/* Tutorials page */
+.listed-ai__section{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.listed-ai__section h2{
+  font-size: larger;
+}
+
+.listed-ai{
+  padding: 20px;
+  margin-left: 7px;
+}
+
+.listed-ai__main{
+  padding-bottom: 5px;
+  padding-top: 10px;
+  font-size: large;
+}
+
+.listed-ai__sub{
+  margin-left: 30px;
+  list-style: circle;
+}
+
 /* register page */
 .register {
     width: 100%;
