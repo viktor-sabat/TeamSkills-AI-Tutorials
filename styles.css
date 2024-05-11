@@ -190,14 +190,11 @@
   font-size: 0.8rem;
 }
 
-/* Tutorials page */
+/* Tutorials page & Gemini Guide page */
 .listed-ai__section{
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.listed-ai__section h2{
-  font-size: larger;
+  
 }
 
 .listed-ai{
@@ -209,6 +206,17 @@
   padding-bottom: 5px;
   padding-top: 10px;
   font-size: large;
+}
+
+.listed-ai__section h2{
+  font-size: larger;
+}
+
+.listed-ai__main-strong{
+  padding-bottom: 5px;
+  padding-top: 10px;
+  font-size: large;
+  margin-left: 20px;
 }
 
 .listed-ai__sub{
