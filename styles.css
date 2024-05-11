@@ -40,6 +40,10 @@
   justify-content: space-between;
   position: relative;
 }
+.main-header__logo {
+    object-fit: cover;
+    width: 150px;
+}
 /*------------------------------menu phone----------------------------*/
 /*? better/shorter options for an hamburger menu?*/
 .main-header__burger {
@@ -186,53 +190,116 @@
   font-size: 0.8rem;
 }
 
+/* register page */
+.register {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.register__article{
+    padding: 10px;
+    background-color: var(--main-color);
+    border-radius: 20px;
+}
+.register__paragraph{
+    color: white;
+}
+.register__form {
+    height: 100%;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.register__input {
+    margin-bottom: 20px;
+    padding: 0 5px;
+    height: 2.5rem;
+    width: 90%;
+}
+.register__button {
+    background-color: var(--main-color);
+    color: white;
+    height: 2.5rem;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.register__button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: var(--highlight-color);
+}
 /*ToDo make changing from screen size smooth*/
 
 /*? maybe less media queries?*/
 
 @media only screen and (min-width: 800px) {
-  .main-header {
-    padding: var(--main-padding-tablet);
-  }
-  .main-header__burger {
-    display: none;
-  }
-  .main-header__menu {
-    width: 0;
-    height: auto;
-    background-color: transparent;
-    position: static;
-    display: flex;
-    justify-content: flex-end;
-    transform: translateY(0);
-  }
-  .main-header__list {
-    height: auto;
-    padding: 0px;
-    flex-direction: row;
-  }
-  .main-header__link {
-    white-space: nowrap;
-    font-size: 1.3rem;
-  }
-  .main {
-    padding: var(--main-padding-tablet);
-  }
-  .content {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .content__article {
-    width: 300px;
-  }
-  .content__image {
-    width: 400px;
-    border: 20px solid var(--main-color);
-    margin-top: 0;
-  }
-  .main-footer__icon {
-    font-size: 1.5rem;
-  }
+    .main-header {
+        padding: var(--main-padding-tablet);
+    }
+    .main-header__logo {
+        width: 100%;
+    }
+    .main-header__burger {
+        display: none;
+    }
+    .main-header__menu {
+        width: 0;
+        height: auto;
+        background-color: transparent;
+        position: static;
+        display: flex;
+        justify-content: flex-end;
+        transform: translateY(0);
+    }
+    .main-header__list {
+        height: auto;
+        padding: 0px;
+        flex-direction: row;
+    }
+    .main-header__link {
+        white-space: nowrap;
+        font-size: 1.3rem;
+    }
+    .main {
+        padding: var(--main-padding-tablet);
+    }
+    .content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .content__article {
+        width: 300px;
+    }
+    .content__image {
+        width: 400px;
+        border: 20px solid var(--main-color);
+        margin-top: 0;
+    }
+    .main-footer__icon {
+        font-size: 1.5rem;
+    }
+    .register__article {
+        min-height: 10rem;
+    }
+    .content__paragraph {
+        font-size: 1rem;
+    }
+    .register__input {
+        height: 3.5rem;
+        width: 70%;
+        font-size: 1rem;
+    }
+    .register__button {
+        height: 3.5rem;
+        width: 70%;
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -278,9 +345,26 @@
 }
 
 @media only screen and (min-width: 2400px) {
-  .content__paragraph {
-    font-size: 2rem;
-  }
+    .main-header__logo {
+        width: 25rem;
+    }
+    .main-header__link {
+        font-size: 2.5rem;
+    }
+    .content__paragraph {
+        font-size: 2rem;
+    }
+    .register__paragraph {
+        font-size: 2rem;
+    }
+    .register__input {
+        height: 5rem;
+        font-size: 2rem;
+    }
+    .register__button {
+        height: 5rem;
+        font-size: 2rem;
+    }
 }
 
 .timeline-ul {
