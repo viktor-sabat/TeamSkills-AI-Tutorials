@@ -202,6 +202,10 @@
   margin-left: 7px;
 }
 
+.listed-ai img{
+  width: 60%;
+}
+
 .listed-ai__main{
   padding-bottom: 5px;
   padding-top: 10px;
