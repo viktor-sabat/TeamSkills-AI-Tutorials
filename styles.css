@@ -324,6 +324,9 @@
     .content__paragraph {
         font-size: 1rem;
     }
+    .register__paragraph{
+    font-size: 1.5rem;
+    }
     .register__input {
         height: 3.5rem;
         width: 70%;
